@@ -1,6 +1,7 @@
 package one.digitalinnovation.gof.Service.impl;
 
 import one.digitalinnovation.gof.Model.Cliente;
+import one.digitalinnovation.gof.Repository.ClienteRepository;
 import one.digitalinnovation.gof.Service.ClienteService;
 import org.springframework.stereotype.Service;
 

@@ -22,7 +22,7 @@ public class ClienteRestController {
         return ResponseEntity.ok(clienteService.buscarPorId(id));
     }
 
-    @PostMapping("/user")
+    @PostMapping("/")
     public ResponseEntity<Cliente> inserir(@RequestBody Cliente cliente) {
         clienteService.inserir(cliente);
         return ResponseEntity.ok(cliente);
